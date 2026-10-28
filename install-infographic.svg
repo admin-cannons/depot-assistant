@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 790" width="900" height="790" font-family="Segoe UI, Helvetica, Arial, sans-serif">
+  <title>Install Panoptic and Argus in four steps</title>
+  <rect width="900" height="790" rx="16" fill="#f4f7fb"/>
+  <text x="450" y="52" text-anchor="middle" font-size="30" font-weight="700" fill="#14305a">Install Panoptic - Depot Assistant</text>
+  <text x="450" y="82" text-anchor="middle" font-size="16" fill="#4a5b78">Panoptic on one server PC, then Argus on any staff PC you want alerts on</text>
+
+  <!-- Step 1 -->
+  <rect x="40" y="108" width="820" height="130" rx="12" fill="#ffffff" stroke="#cfd9e8"/>
+  <circle cx="92" cy="173" r="28" fill="#14305a"/>
+  <text x="92" y="184" text-anchor="middle" font-size="30" font-weight="700" fill="#ffffff">1</text>
+  <text x="145" y="145" font-size="21" font-weight="700" fill="#14305a">Get the server installer</text>
+  <text x="145" y="177" font-size="16" fill="#26354f">Download Panoptic-Setup.exe and place it on your depot server</text>
+  <text x="145" y="203" font-size="16" fill="#26354f">(same as your Vigo TMS server or similar)</text>
+
+  <text x="450" y="264" text-anchor="middle" font-size="22" fill="#7a8ba6">&#9660;</text>
+
+  <!-- Step 2 -->
+  <rect x="40" y="278" width="820" height="150" rx="12" fill="#ffffff" stroke="#cfd9e8"/>
+  <circle cx="92" cy="353" r="28" fill="#1f6fd0"/>
+  <text x="92" y="364" text-anchor="middle" font-size="30" font-weight="700" fill="#ffffff">2</text>
+  <text x="145" y="315" font-size="21" font-weight="700" fill="#14305a">Run the installer on your server</text>
+  <text x="145" y="347" font-size="16" fill="#26354f">Get a Windows warning? Choose More info, then Run anyway</text>
+  <text x="145" y="373" font-size="16" fill="#26354f">Enter your depot number (e.g. 157)</text>
+  <text x="145" y="399" font-size="16" fill="#26354f">and your API key from your Loadstarr API account</text>
+
+  <text x="450" y="454" text-anchor="middle" font-size="22" fill="#7a8ba6">&#9660;</text>
+
+  <!-- Step 3 -->
+  <rect x="40" y="468" width="820" height="150" rx="12" fill="#ffffff" stroke="#cfd9e8"/>
+  <circle cx="92" cy="543" r="28" fill="#1f8a5b"/>
+  <text x="92" y="554" text-anchor="middle" font-size="30" font-weight="700" fill="#ffffff">3</text>
+  <text x="145" y="505" font-size="21" font-weight="700" fill="#14305a">Desktop notifications setup</text>
+  <text x="145" y="537" font-size="16" fill="#26354f">Download Argus-Setup.exe to any depot staff computer you want alerts on</text>
+  <text x="145" y="563" font-size="16" fill="#26354f">and run it. It finds the server by itself, nothing to type</text>
+  <text x="145" y="589" font-size="16" fill="#26354f">Argus starts with Windows and sits in the system tray</text>
+
+  <text x="450" y="644" text-anchor="middle" font-size="22" fill="#7a8ba6">&#9660;</text>
+
+  <!-- Step 4 -->
+  <rect x="40" y="658" width="820" height="116" rx="12" fill="#ffffff" stroke="#cfd9e8"/>
+  <circle cx="92" cy="716" r="28" fill="#c8741a"/>
+  <text x="92" y="727" text-anchor="middle" font-size="30" font-weight="700" fill="#ffffff">4</text>
+  <text x="145" y="692" font-size="21" font-weight="700" fill="#14305a">Check it works</text>
+  <text x="145" y="722" font-size="16" fill="#26354f">Double-click the Argus icon in the system tray to open the dashboard</text>
+  <text x="145" y="748" font-size="16" fill="#26354f">Check the Settings tab shows no sync errors. You're good to go!</text>
+</svg>
