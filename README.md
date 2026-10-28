@@ -49,6 +49,22 @@ If your network keeps devices apart (separate VLANs or Wi-Fi isolation), Argus c
 - If the server stays silent for 5 minutes Argus raises a warning. If the server comes back on a new address after a power cut, Argus finds it again by itself.
 - Notifications are held back from 06:00 to 08:00 while the day's data loads, then run until 19:30, Monday to Friday.
 
+## One person, one PC
+
+If only one person watches Pallet-Track on one computer, use `Panoptic-OnePC-Setup.exe` instead of the two installers above. It is a separate installer and does not touch the depot server install.
+
+1. Download `Panoptic-OnePC-Setup.exe` and run it on that PC. Choose **Run anyway** if Windows warns you.
+2. Enter your depot number and API key, and pick your region. It installs Panoptic and Argus together, so there is nothing else to set up.
+3. Double-click the Argus icon in the system tray to open the dashboard.
+
+What is different from a depot server:
+
+- The dashboard works on this PC only, and the installer changes no firewall or sleep settings.
+- The PC can be shut down every night. When it starts, Panoptic catches up on the hours it missed. Argus stays quiet for about 10 minutes, then shows one summary of what needs attention.
+- The 06:00 special measures chase and the 11:00 ETA Chase auto-send are skipped on a day the PC was not on at that time. Nothing is posted late.
+- Updates do not install overnight. Argus shows an **Install now** notification when one is ready, and you choose when.
+- The installer refuses to run on a PC that already runs Panoptic as a depot server.
+
 ## Updates
 
 Servers check for new releases once a night and install them between 02:00 and 05:00 on a quiet day. Staff PCs take the new Argus from their own server. If an update fails, the previous version and database are put back. The **Settings** tab has **Check now** and **Install now** buttons, and shows the result.
